@@ -1,0 +1,42 @@
+:root {
+    --color_base: rgb(51, 50, 50);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p, ul{
+    color: var(--color_base);
+}
+main {
+    --color_del_texto: red;
+}
+
+@media (min-width:768px) {
+    a {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    nav {
+        position: relative;
+        width: 22%;
+        height: 100vh;
+        text-align:left;
+        color: var(--color_del_texto);
+    }
+
+    nav a {
+        color: var(--color_del_texto);
+    }
+
+    main {
+        position: absolute;
+        top: 25px;
+        left: 26%;
+        width: 70%;
+        height: 100vh;
+        overflow-y: scroll;
+        color: var(--color_del_texto);
+    }
+}

@@ -1,0 +1,45 @@
+body {
+    background-image: url(https://img.freepik.com/fotos-premium/dos-jovenes-programadores-trabajan-proyecto-programacion-computadora-escritorio-moderna-tres-monitores_671318-648.jpg?w=740);
+}
+
+.form-box {
+    width: 600px;
+    margin: 0px auto;
+    padding: 40px;
+    background-color: rgb(51, 51, 151);
+    border-radius: 1%;
+}
+
+.field-box {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.input-field {
+    width: 100%;
+    height: 20px;
+    border-radius: 10%;
+}
+
+button {
+    background-color: rgb(111, 199, 111);
+    width: 100%;
+    height: 40px;
+    border-color:rgb(111, 199, 111);
+    border-radius: 3%;
+    border-style: solid;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+h1, p{
+    text-align: center;
+}
